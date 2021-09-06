@@ -9,4 +9,5 @@ The directory contains the following files
 * 6-concat.py: Python script concatenating strings
 * 7-edges.py: Python script for slicing string
 * 8-concat_edges.py: Python script reassigning the value of string variable and printing
+* 9-easter_egg.py: Python script that prints "The Zen of Python" by Tim Peters
 
