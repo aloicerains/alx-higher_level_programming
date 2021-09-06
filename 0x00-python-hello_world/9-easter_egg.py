@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 f = open('zen.txt', 'r')
-file_content = f.read()
-print(file_content)
+file_ = f.read()
+print(file_, end = ""),
 f.close()
