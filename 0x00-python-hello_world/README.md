@@ -2,4 +2,5 @@
 The directory contains the following files
 * 0-run: File contains a shell script that runs a Python script.
 * 1-run_inline: Shell script running an environmental variable cataining python script
+* 2-print.py: Python script printing a text 
 
