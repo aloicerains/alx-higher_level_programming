@@ -7,4 +7,5 @@ The directory contains the following files
 * 4-print_float.py: Python script to print a string followed by a float
 * 5-print_string.py: Python script printing a string 3 times followed by first characters of the string
 * 6-concat.py: Python script concatenating strings
+* 7-edges.py: Python script for slicing string
 
