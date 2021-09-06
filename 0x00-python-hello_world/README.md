@@ -8,4 +8,5 @@ The directory contains the following files
 * 5-print_string.py: Python script printing a string 3 times followed by first characters of the string
 * 6-concat.py: Python script concatenating strings
 * 7-edges.py: Python script for slicing string
+* 8-concat_edges.py: Python script reassigning the value of string variable and printing
 
