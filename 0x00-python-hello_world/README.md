@@ -10,4 +10,6 @@ The directory contains the following files
 * 7-edges.py: Python script for slicing string
 * 8-concat_edges.py: Python script reassigning the value of string variable and printing
 * 9-easter_egg.py: Python script that prints "The Zen of Python" by Tim Peters
+* 10-check_cycle.c: C program checking for loop in the linked list
+* 100-write.py: Python script printing output in stderr using write and return 1 as exit status
 
