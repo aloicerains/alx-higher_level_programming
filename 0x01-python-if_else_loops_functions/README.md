@@ -6,4 +6,5 @@ The directory contains the following project files:
 * 3-print_alphabt.py: prints alphabets except q and e
 * 4-print_hexa.py: Prints  hexadecimal numbers from 0 to 98
 * 5-print_comb2.py: prints 0 - 99 with two prints functions
+* 6-print_comb3.py: prints all possible combination of two digits in ascending order
 
