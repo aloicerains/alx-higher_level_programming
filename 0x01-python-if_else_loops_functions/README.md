@@ -4,4 +4,5 @@ The directory contains the following project files:
 * 1-last_digit.py: Program prints the last digit of a number and gives the sign
 * 2-print_alphabet.py: program prints lowercase alphabets
 * 3-print_alphabt.py: prints alphabets except q and e
+* 4-print_hexa.py: Prints  hexadecimal numbers from 0 to 98
 
