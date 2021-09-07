@@ -5,4 +5,5 @@ The directory contains the following project files:
 * 2-print_alphabet.py: program prints lowercase alphabets
 * 3-print_alphabt.py: prints alphabets except q and e
 * 4-print_hexa.py: Prints  hexadecimal numbers from 0 to 98
+* 5-print_comb2.py: prints 0 - 99 with two prints functions
 
