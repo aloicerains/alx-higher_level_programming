@@ -10,4 +10,5 @@ The directory contains the following project files:
 * 7-islower.py: Function checks if lowercase character is given
 * 8
 * 9-print_last_digit.py: Function prints th last digit of a number
+* 10-add.py: Function adds two integers
 
