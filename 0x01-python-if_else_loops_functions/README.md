@@ -11,4 +11,5 @@ The directory contains the following project files:
 * 8
 * 9-print_last_digit.py: Function prints th last digit of a number
 * 10-add.py: Function adds two integers
+* 11-pow.py: Function computes a to power of b and returns the value
 
