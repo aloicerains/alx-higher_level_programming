@@ -12,6 +12,6 @@ def fizzbuzz():
             print('Fizz', end=', ')
             continue
         elif i < 100:
-            print(i, end=', ')
+            print('{}'.format(i), end=', ')
         else:
             print('Buzz', end='')
