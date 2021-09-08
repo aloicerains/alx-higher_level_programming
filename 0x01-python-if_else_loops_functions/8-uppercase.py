@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def uppercase(str):
     """Function prints a string in uppercase followed by newline."""
-    limit = len(str)
-    for i in range(limit):
-        if (str[i] >= 'a' and str[i] <= 'z'):
-            conversion = ord(str[i]) - 32
-            print('{:c}'.format(conversion), end='')
-        else:
-            print('{}'.format(str[i]), end='')
+    upper = ''
+    for i in str:
+        char_value = ord(i)
+        if ord('a') <= char_value <= ord('z'):
+            char_value = char_value - 32
+        upper += chr(char_value)
+    print("{}".format(upper))
