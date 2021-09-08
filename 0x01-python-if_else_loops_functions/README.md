@@ -8,7 +8,7 @@ The directory contains the following project files:
 * 5-print_comb2.py: prints 0 - 99 with two prints functions
 * 6-print_comb3.py: prints all possible combination of two digits in ascending order
 * 7-islower.py: Function checks if lowercase character is given
-* 8
+* 8-uppercase.py: Function prints a string in uppercase followed by a newline. Uses chr and ord and for loop only
 * 9-print_last_digit.py: Function prints th last digit of a number
 * 10-add.py: Function adds two integers
 * 11-pow.py: Function computes a to power of b and returns the value
