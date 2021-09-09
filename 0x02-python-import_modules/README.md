@@ -6,4 +6,4 @@ The following files are contained in the project:
 * 3-infinite_add.py: Function prints the results of addition of all arguments
 * 4-hidden_discovery.py: Function prints names defined by the compiled module in hidden_4.pyc
 * 5-variable_load.py: Program improts a varialbe and prints its value
-
+* 100-my_calculator.py: Programs handles basic calculator operations with 3 arguments
