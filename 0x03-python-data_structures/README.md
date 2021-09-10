@@ -6,4 +6,5 @@ The following files are present:
 * 2-replace_in_list.py: Function replaces an element in the list a specific positiion
 * 3-print_reversed_list_integer.py: Function prints a list of integers in reverse order
 * 4-new_in_list.py: Function makes changes in a copy of the list, leaving the original unmodified
+* 5-no_c.py: Function removes all the characters c and C from the string
 
