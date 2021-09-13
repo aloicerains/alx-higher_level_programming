@@ -12,4 +12,5 @@ The following files are present:
 * 8-multiple_returns.py: Function returns a tuple with length of a string and its first character
 * 9-max_integer.py: Function finds the biggest integer in a list
 * 10-divisible_by_2.py: Function finds all multiples of two in a list
+* 12-switch.py: Function switches the value of a and b
 
