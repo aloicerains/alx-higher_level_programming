@@ -8,4 +8,4 @@ The following files are present:
 * 4-new_in_list.py: Function makes changes in a copy of the list, leaving the original unmodified
 * 5-no_c.py: Function removes all the characters c and C from the string
 * 6-print_matrix_integer.py: Function prints the matrix of integer
-
+* 7-add_tuple.py: Function that adds two tuples
