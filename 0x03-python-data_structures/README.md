@@ -9,3 +9,5 @@ The following files are present:
 * 5-no_c.py: Function removes all the characters c and C from the string
 * 6-print_matrix_integer.py: Function prints the matrix of integer
 * 7-add_tuple.py: Function that adds two tuples
+* 8-multiple_returns.py: Function returns a tuple with length of a string and its first character
+
