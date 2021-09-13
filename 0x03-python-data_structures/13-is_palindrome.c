@@ -4,6 +4,9 @@
  *
  * Return: 1 if palindrome, 0 not palindrome
  */
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdio.h>
 #include "lists.h"
 int is_palindrome(listint_t **head)
 {
