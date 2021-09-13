@@ -31,9 +31,9 @@ int is_palindrome(listint_t **head)
 		}
 		*(second_h) = slow;
 		pre_slow->next = NULL;
-		reverse(second_h);
-		result = comparelists(*head, *second_h);
-		reverse(second_h);
+		rev_list(second_h);
+		result = compare_list(*head, *second_h);
+		rev_list(second_h);
 		if (mid != NULL)
 		{
 			pre_slow->next = mid;
@@ -49,7 +49,7 @@ int is_palindrome(listint_t **head)
  * @head: head pointer
  * return: nothing
  */
-void reverse(listint_t **head)
+void rev_list(listint_t **head)
 {
 	listint_t *prev = NULL;
 	listint_t *current = *head;
@@ -71,7 +71,7 @@ void reverse(listint_t **head)
  *
  * Return: 1 success, 0 failure
  */
-int comparelists(listint_t *head1, listint_t *head2)
+int compare_list(listint_t *head1, listint_t *head2)
 {
 	listint_t *tmp1 = head1;
 	listint_t *tmp2 = head2;
