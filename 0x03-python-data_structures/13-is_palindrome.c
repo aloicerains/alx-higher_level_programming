@@ -10,16 +10,17 @@
 #include "lists.h"
 int is_palindrome(listint_t **head)
 {
+	listint_t *slow, *fast, *mid, *pre_slow, **second_h;
+	int result;
+
 	if (head == NULL)
 		return (1);
-	listint_t *slow, *fast, *mid, *pre_slow; 
 	fast = (*head);
 	slow = (*head);
 	mid = NULL;
 	pre_slow = (*head);
-	listint_t **second_h;
 	second_h = head;
-	int result = 1;
+	result = 1;
 
 	if ((*head) != NULL && (*head)->next != NULL)
 	{
