@@ -1,4 +1,3 @@
-#!/usr/bin/pthon3
 def print_matrix_integer(matrix=[[]]):
     """Function prints a matrix of integers."""
     for row in matrix:
