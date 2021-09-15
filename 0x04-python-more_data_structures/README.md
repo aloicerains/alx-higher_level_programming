@@ -4,4 +4,5 @@ This directory contains the following files and programs:
 * 1-search_replace.py: Function searches and replaces a given value in the list
 * 2-uniq_add.py: Functin adds unique integer in a list
 * 3-common_elements.py: Function returns a set of common elements in two sets
+* 4-only_diff_elements.py: Function returns a set of elements present in only one set
 
