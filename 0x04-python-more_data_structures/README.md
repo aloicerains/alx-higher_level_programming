@@ -11,5 +11,6 @@ This directory contains the following files and programs:
 * 8-simple_delete.py: Function deletes a key
 * 9-multiply_by_2.py: Function returns a new dictionary with values multiplied by 2
 * 10-best_score.py: Function returns a key with biggest integer value
+* 11-multiply_list_map.py: Function uses map and lambda to multiply a list by a number
 
 
