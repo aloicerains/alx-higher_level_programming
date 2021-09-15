@@ -4,7 +4,15 @@ def best_score(a_dictionary):
     if a_dictionary is not None:
         keys = list(a_dictionary.keys())
         a = a_dictionary[keys[0]]
+        flag = 1
         for i, j in a_dictionary.items():
             if j > a:
                 a = j
-        return a
+            elif a == j:
+                flag = flag * 1
+                continue
+            flag = flag * 0
+        if flag == 1:
+            return None
+        else:
+            return a
