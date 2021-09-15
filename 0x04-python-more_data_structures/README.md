@@ -6,4 +6,5 @@ This directory contains the following files and programs:
 * 3-common_elements.py: Function returns a set of common elements in two sets
 * 4-only_diff_elements.py: Function returns a set of elements present in only one set
 * 5-number_keys.py: Function determines the number of keys in a dictionary
+* 6-print_sorted_dictionary.py: Function prints dictionary by ordered keys
 
