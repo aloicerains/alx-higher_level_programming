@@ -16,3 +16,5 @@ def best_score(a_dictionary):
             return None
         else:
             return a
+    else: 
+        return None
