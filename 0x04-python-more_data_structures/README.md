@@ -7,4 +7,6 @@ This directory contains the following files and programs:
 * 4-only_diff_elements.py: Function returns a set of elements present in only one set
 * 5-number_keys.py: Function determines the number of keys in a dictionary
 * 6-print_sorted_dictionary.py: Function prints dictionary by ordered keys
+* 7
+* 8-simple_delete.py: Function deletes a key
 
