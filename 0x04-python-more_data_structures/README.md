@@ -3,4 +3,5 @@ This directory contains the following files and programs:
 * 0-square_matrix_simple.py: The function computes the square values of all integers of a matrix
 * 1-search_replace.py: Function searches and replaces a given value in the list
 * 2-uniq_add.py: Functin adds unique integer in a list
+* 3-common_elements.py: Function returns a set of common elements in two sets
 
