@@ -9,4 +9,6 @@ This directory contains the following files and programs:
 * 6-print_sorted_dictionary.py: Function prints dictionary by ordered keys
 * 7-update_dictionary.py: Function replaces or adds key/value in a dictionary
 * 8-simple_delete.py: Function deletes a key
+* 9-multiply_by_2.py: Function returns a new dictionary with values multiplied by 2
+
 
