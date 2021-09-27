@@ -14,4 +14,8 @@ Function prints x elements of a list.
 - [] 1-safe_print_integer.py:  
 Function prints an integer with "{:d}".format().  
 value can be any type such as string and integers.  
-Returns: `True` if value is correctly printed, otherwise `False`
+Returns: `True` if value is correctly printed, otherwise `False`  
+- [x] 2-safe_print_list_integers.py
+* Function prints integer elements in a list   
+* It escapes the non integer elements  
+* Function returns the number of integers printed
