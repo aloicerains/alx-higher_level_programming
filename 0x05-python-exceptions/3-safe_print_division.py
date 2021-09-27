@@ -2,7 +2,7 @@
 def safe_print_division(a, b):
     """Function divides two integers and prints the result."""
     try:
-        x = a / b
+        x = int(a) / int(b)
     except ZeroDivisionError:
         x = None
     except TypeError:
