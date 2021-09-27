@@ -22,4 +22,8 @@ Returns: `True` if value is correctly printed, otherwise `False`
 * Function divides two integers and prints the result   
 * Return the result   
 * The result of dividion are printed in the finally section
+- [] **4-list_division.py**   
+* Function divides the list 1 by list 2   
+* Returns a new list of size list_lenth given as function argument   
+* ZeroDivision, Index, and Type erros are handled  
 
