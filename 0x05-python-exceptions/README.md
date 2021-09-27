@@ -25,5 +25,8 @@ Returns: `True` if value is correctly printed, otherwise `False`
 - [] **4-list_division.py**   
 * Function divides the list 1 by list 2   
 * Returns a new list of size list_lenth given as function argument   
-* ZeroDivision, Index, and Type erros are handled  
+* ZeroDivision, Index, and Type erros are handled   
+- [] **5-raise_exception.py***   
+Function raises `TypeError'   
+ 
 
