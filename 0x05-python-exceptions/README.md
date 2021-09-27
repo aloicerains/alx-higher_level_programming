@@ -34,6 +34,11 @@ Function raises `NameError` with an error message
 Function prints an integer followed by a newline.   
 * Returns `True` if value is integer   
 * Returns `False` if value is not integer and writes in stdout the Error message    
-
--  
+- [x] **101-safe_function.py**   
+Function executes a function safely      
+Function prototype: `def safe_function(fct, *args)`    
+* Assume `fct` will always be a pointer   
+* Return the result of the function   
+* Otherwise returns `None` if something happens during the function and prints in `stderr` the error precede by `Exception:`    
+* Uses `try: / except`   
 
