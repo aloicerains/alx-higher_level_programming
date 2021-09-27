@@ -28,5 +28,7 @@ Returns: `True` if value is correctly printed, otherwise `False`
 * ZeroDivision, Index, and Type erros are handled   
 - [] **5-raise_exception.py***   
 Function raises `TypeError'   
+- [x] **6-raise_exception_msg.py**   
+Function raises `NameError` with an error message  
  
 
