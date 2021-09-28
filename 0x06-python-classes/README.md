@@ -13,7 +13,11 @@ Size is a private instance attribute
 Class square defines which defined by instance of size.  
 Size is always an integer else a `TypeError` is thrown or a `ValueError` result when size is less than 0   
 
-- [ ] **3-square.py**   
+- [x] **3-square.py**   
 Class adds the area attribute. Checks for errors in task two above   
+
+- [ ] **4-square.py**    
+The preceding instructions are followed    
+The class futher introduces getter and setter methods for private variable   
 
 
