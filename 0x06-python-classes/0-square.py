@@ -1,6 +1,9 @@
 class Square:
-    """Empty class Square.
-    The class is empty and does not contain anything.
+    """Empty class Square does not contain attributes or arguments
+    Args:
+    None
+    Attributes:
+    None
 
     """
     pass
