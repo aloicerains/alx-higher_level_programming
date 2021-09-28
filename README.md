@@ -6,5 +6,6 @@ Some of the directories in this repository are brefily outlined.
 * 0x02-python-import_modules: Directory contains project files on importing modules
 * 0x03-python-data_structures: Python data structures: Lists and Tuples
 * 0x04-python-more_data_structures: More data structures: Sets and dictionaries
-* 0x05-python-exceptions: Errors and Exception handling in python
+* 0x05-python-exceptions: Errors and Exception handling in pythoni
+* 0x06-python-classes: Python classes and Objects. Introducing OOP in Python
 
