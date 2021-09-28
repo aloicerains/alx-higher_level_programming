@@ -1,19 +1,12 @@
 #!/usr/bin/python
-"""The module initializes class square"""
+"""Square module - initializes class square"""
 
 
-class Square():
-    """Square defines the object square using private attribute __size.
+class Square:
+    """Square defines the object square using private attribute."""
 
-
-    Attributes:
-        __size(str): unspecified variable
-
-
-    """
-
-    def __init__(self, __size):
-        """__init__: initializes the string with __size variable.
+    def __init__(self, size):
+        """__init__ - initializes the string with __size variable.
 
 
         Args:
@@ -21,4 +14,5 @@ class Square():
 
 
          """
-        self.__size = __size
+
+        self.__size = size
