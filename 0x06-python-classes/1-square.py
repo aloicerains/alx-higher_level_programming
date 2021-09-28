@@ -1,5 +1,5 @@
 #!/usr/bin/python
-Square = __import__('0-square').Square
+"""description of module"""
 
 
 class Square():
@@ -9,7 +9,13 @@ class Square():
 
     Attributes:
         __size: Instance variable of class square.
-        .
     """
+
     def __init__(self, __size):
+        """The __init__ method initializes the string with __size variable.
+
+        Args:
+            __size: private argument without specified argument
+
+         """
         self.__size = __size
