@@ -16,8 +16,11 @@ Size is always an integer else a `TypeError` is thrown or a `ValueError` result 
 - [x] **3-square.py**   
 Class adds the area attribute. Checks for errors in task two above   
 
-- [ ] **4-square.py**    
+- [x] **4-square.py**    
 The preceding instructions are followed    
 The class futher introduces getter and setter methods for private variable   
 
+- [ ] **5-square.py**    
+Class adds my_print function that print in stdout with character #.   
+if size less than 0, an empty line is printed    
 
