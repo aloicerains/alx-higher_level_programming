@@ -144,4 +144,5 @@ class Rectangle:
 
         """
 
-        return cls(size, size)
+        instance = Rectangle(size, size)
+        return instance 
