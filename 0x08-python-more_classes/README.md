@@ -18,11 +18,14 @@ Area and Perimeter methods have been added to the class rectangle.
 * if width or height is zero, the perimeter becomes zero     
 
 - [x] **3-rectangle.py**    
-`str()` is implemented which prints the rectangle interms of `#`.   
+`__str__(self)` is implemented which prints the rectangle interms of `#`.   
 * if the either width or height is zero, empty string is returned    
 
-- [ ] **4-rectangle.py**    
-`repr()` function implemented   
+- [x] **4-rectangle.py**    
+`__repr__(self:)` function implemented   
+
+- [ ] **5-rectangle.py**   
+`__del__(self)` implemented.   
 
 
 
