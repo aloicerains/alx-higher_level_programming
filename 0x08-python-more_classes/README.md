@@ -31,9 +31,18 @@ Area and Perimeter methods have been added to the class rectangle.
 Implementing `number_of_instances` of the rectangle created    
 * A public class variable is used  
 
-- [ ] ** 7-rectangle.py**    
+- [x] ** 7-rectangle.py**    
 Implementing a public class attribute `print_symbol`   
 * The symbol is initialized to `#`    
+
+- [ ] **8-rectangle.py**     
+Implementation of static method `def bigger_or_equal(rect_1, rect_2)`      
+* The function returns the biggest rectangle of the arguments     
+* Both rectangles must be instances of Rectangle, otherwise a `TypeError` is raised     
+* If both are equal returns `rect_1`     
+
+ 
+
 
 
 
