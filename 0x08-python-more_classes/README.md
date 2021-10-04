@@ -35,13 +35,16 @@ Implementing `number_of_instances` of the rectangle created
 Implementing a public class attribute `print_symbol`   
 * The symbol is initialized to `#`    
 
-- [ ] **8-rectangle.py**     
+- [x] **8-rectangle.py**     
 Implementation of static method `def bigger_or_equal(rect_1, rect_2)`      
 * The function returns the biggest rectangle of the arguments     
 * Both rectangles must be instances of Rectangle, otherwise a `TypeError` is raised     
 * If both are equal returns `rect_1`     
 
- 
+-[ ] **9-rectangle.py**    
+Implementaion of the class method `def square(cls, size=0)` function.    
+* Function creates a square of `height` = `width` = `size`    
+
 
 
 
