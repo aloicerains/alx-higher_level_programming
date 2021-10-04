@@ -27,9 +27,13 @@ Area and Perimeter methods have been added to the class rectangle.
 - [x] **5-rectangle.py**   
 `__del__(self)` implemented.   
 
-- [ ] ** 6-rectangle.py**    
+- [x] ** 6-rectangle.py**    
 Implementing `number_of_instances` of the rectangle created    
 * A public class variable is used  
+
+- [ ] ** 7-rectangle.py**    
+Implementing a public class attribute `print_symbol`   
+* The symbol is initialized to `#`    
 
 
 
