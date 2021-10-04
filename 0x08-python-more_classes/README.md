@@ -13,6 +13,12 @@ Class Rectangle has been given setter and getter methods for both height and wid
 	`raise ValueError`  
 * An `__init__` method instantiates widhth and height to zero.    
 
-- [ ] **2-rectangle.py**   
+- [x] **2-rectangle.py**   
 Area and Perimeter methods have been added to the class rectangle.   
-* if width or height is zero, the perimeter becomes zero.
+* if width or height is zero, the perimeter becomes zero     
+
+- [ ] **3-rectangle.py**    
+`str()` is implemented which prints the rectangle interms of `#`.   
+* if the either width or height is zero, empty string is returned    
+
+.
