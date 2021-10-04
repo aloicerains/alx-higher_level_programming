@@ -24,8 +24,14 @@ Area and Perimeter methods have been added to the class rectangle.
 - [x] **4-rectangle.py**    
 `__repr__(self:)` function implemented   
 
-- [ ] **5-rectangle.py**   
+- [x] **5-rectangle.py**   
 `__del__(self)` implemented.   
+
+- [ ] ** 6-rectangle.py**    
+Implementing `number_of_instances` of the rectangle created    
+* A public class variable is used  
+
+
 
 
 
