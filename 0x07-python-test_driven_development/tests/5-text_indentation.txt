@@ -1,0 +1,28 @@
+Indentation.txt
+===============
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+The following tests cases are applied:
+
+1. Simple text
+==============
+>>> text = "I will come. Says the man: In the days of the Reckoning. Or should I wait? No, my Lord!"
+>>> text_indentation(text)
+I will come.
+<BLANKLINE>
+Says the man:
+<BLANKLINE>
+In the days of the Reckoning.
+<BLANKLINE>
+Or should I wait?
+<BLANKLINE>
+No, my Lord!
+
+2. Non string text
+==================
+>>> text = 1239
+>>> text_indentation(text)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+
