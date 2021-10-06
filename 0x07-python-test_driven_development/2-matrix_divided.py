@@ -26,17 +26,17 @@ def matrix_divided(matrix, div):
     rows = []
     if matrix is not None:
         if not isinstance(matrix[0], list):
-            raise TypeError('matrix must be a matrix (list of lists) of \
-                integers/floats')
+            raise TypeError('matrix must be a matrix (list of lists) of' +
+                            ' integers/floats')
         c = len(matrix[0])
         for i in matrix:
             for j in i:
                 if not isinstance(j, (int, float)):
-                    raise TypeError('matrix must be a matrix (list of lists) of\
-                        integers/floats')
+                    raise TypeError('matrix must be a matrix (list of lists)' +
+                                    ' of integers/floats')
                 if len(i) != c:
-                    raise TypeError('Each row of the matrix must have the same\
-                        size')
+                    raise TypeError('Each row of the matrix must have the' +
+                                    ' same size')
                 rows.append(round((j / div), 2))
             new_matrix.append(rows)
             rows = []
