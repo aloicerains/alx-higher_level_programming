@@ -32,10 +32,10 @@ class BaseGeometry:
             raise TypeError(str(name) + ' must be an integer')
         if value <= 0:
             raise ValueError(str(name) + ' must be greater than 0')
-    
+
+
 class Rectangle(BaseGeometry):
     """Rectangle is a subclass of BaseGeometry."""
-
 
     def __init__(self, width, height):
         self.integer_validator("width", width)
