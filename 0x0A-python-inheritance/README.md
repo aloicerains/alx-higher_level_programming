@@ -12,4 +12,5 @@ The following tasks are present in this directory:
 8. `Rectangle` class inherits from the `BaseGeometry`      
 9. Implementaion of `__str__` function    
 10. Creates a `Square` subclass of `Rectangle` and initializes with `size`    
-11. 
+11. Square inherits from Rectangle and implements its own methods.     
+ 
