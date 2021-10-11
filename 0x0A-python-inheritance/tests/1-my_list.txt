@@ -45,3 +45,13 @@ Traceback (most recent call last):
 ...
 TypeError: print_sorted() takes 1 positional argument but 2 were given
 
+Negative Integers:
+>>> my_list.insert(3, -5)
+>>> my_list
+[1, 4, 2, -5, 8, 5]
+>>> my_list.print_sorted()
+[-5, 1, 2, 4, 5, 8]
+>>> my_list.clear()
+>>> my_list.print_sorted()
+[]
+
