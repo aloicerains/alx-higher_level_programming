@@ -8,4 +8,5 @@ The following tasks are present in this directory:
 4. Function returns true if the object is an instance of a class that inherited(direclty or indirectly) form the specified class     
 5. A new empty `Geometry` Class      
 6. Added `area` method to class `Geometry` raising and Exception error.     
-7. 
+7. Integer validator, raises `TypeError` and `ValueError` when valu is not integer and <= 0 respectively. Tests are created     
+ 

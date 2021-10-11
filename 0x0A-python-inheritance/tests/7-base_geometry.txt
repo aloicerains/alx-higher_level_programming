@@ -1,0 +1,44 @@
+7-base_geometry.txt
+====================
+Modul import:
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Create an instance:
+>>> bg = BaseGeometry()
+
+Value is an integer:
+>>> bg.integer_validator("my_int", 12)
+
+Value is not integer:
+>>> bg.integer_validator("name", "Johaness")
+Traceback (most recent call last):
+...
+TypeError: name must be an integer
+
+Value less than zero:
+>>> bg.integer_validator("Jason", -98)
+Traceback (most recent call last):
+...
+ValueError: Jason must be greater than 0
+
+Value equal to zero:
+>>> bg.integer_validator("Jason", 0)
+Traceback (most recent call last):
+...
+ValueError: Jason must be greater than 0
+
+Name is empty string:
+>>> bg.integer_validator("", 89)
+
+One argument is passed:
+>>> bg.integer_validator("Jason")
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+No argument is passed:
+>>> bg.integer_validator()
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
