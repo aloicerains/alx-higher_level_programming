@@ -11,4 +11,5 @@ Some of the directories in this repository are brefily outlined.
 * 0x07-python-test_driven_development: The beginning of test driven development
 * 0x08-python-more_classes: More classes and Objects handled in this directory
 * 0x09-python-everything_is_object: Multiple questions based on python objects
+* 0x0A-python-inheritance: Contains tasks on inheritance of classes    
 
