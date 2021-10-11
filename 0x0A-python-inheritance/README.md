@@ -9,4 +9,5 @@ The following tasks are present in this directory:
 5. A new empty `Geometry` Class      
 6. Added `area` method to class `Geometry` raising and Exception error.     
 7. Integer validator, raises `TypeError` and `ValueError` when valu is not integer and <= 0 respectively. Tests are created     
+8. `Rectangle` class inherits from the `BaseGeometry`      
  
