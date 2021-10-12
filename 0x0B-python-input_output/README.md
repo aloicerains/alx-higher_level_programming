@@ -1,5 +1,5 @@
 #### 0x0B-python-input_output    
-=============================
+=============================     
 This directory contains project files on how to handle input and ouput in python.    
 The following tasks are present in the directory.     
 
@@ -21,11 +21,19 @@ Function that writes a string to a text file and returns the number of character
 * Your function should overwrite the content of the file if it already exists.    
 * You are not allowed to import any module    
 
-- [ ] **2-append_write.py**     
+- [x] **2-append_write.py**     
 
 Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:    
 * Prototype: `def append_write(filename="", text=""):`      
 * If the file doesn’t exist, it should be created     
 * You must use the with statement    
 * You don’t need to manage file permission or file doesn't exist exceptions.    
-* You are not allowed to import any module
+* You are not allowed to import any module     
+
+- [ ] **3-to_json_string.py**     
+
+Write a function that returns the JSON representation of an object (string):    
+* Prototype: def to_json_string(my_obj):    
+* You don’t need to manage exceptions if the object can’t be serialized    
+
+
