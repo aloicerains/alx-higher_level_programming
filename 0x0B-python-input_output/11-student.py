@@ -30,5 +30,5 @@ class Student:
     def reload_from_json(self, json):
         """ replaces the attritues of the instance. """
 
-        for key, value in json.items():
-            self.__setattr__(key, value)
+        for k, v in json.items():
+            self.__setattr__(k, v)
