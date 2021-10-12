@@ -73,7 +73,7 @@ Write a function that returns the dictionary description with simple data struct
 * All attributes of the obj Class are serializable: list, dictionary, string, integer and boolean    
 * You are not allowed to import any module     
 
-- [ ] **9-student.py**    
+- [x] **9-student.py**    
 Write a class Student that defines a student by:    
 * Public instance attributes:    
 	first_name     
@@ -83,4 +83,10 @@ Write a class Student that defines a student by:
 * Public method def to_json(self): that retrieves a dictionary representation of a Student instance (same as `8-class_to_json.py`)   
 * You are not allowed to import any module    
 
-- [ ] 
+- [ ] **10-student.py**   
+Implementtion of Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py):    
+* If attrs is a list of strings, only attribute names contained in this list must be retrieved.    
+* Otherwise, all attributes must be retrieved    
+* You are not allowed to import any module   
+
+
