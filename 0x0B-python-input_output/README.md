@@ -36,10 +36,18 @@ Write a function that returns the JSON representation of an object (string):
 * Prototype: def to_json_string(my_obj):    
 * You don’t need to manage exceptions if the object can’t be serialized    
 
-- [ ] **4-from_json_string.py**    
+- [x] **4-from_json_string.py**    
 
 Write a function that returns an object (Python data structure) represented by a JSON string:    
 * Prototype: `def from_json_string(my_str):`   
 * You don’t need to manage exceptions if the JSON string doesn’t represent an object.     
+
+- [ ] **5-save_to_json_file.py**     
+
+Write a function that writes an Object to a text file, using a JSON representation:    
+* Prototype: `def save_to_json_file(my_obj, filename):`    
+* You must use the with statement     
+* You don’t need to manage exceptions if the object can’t be serialized.    
+* You don’t need to manage file permission exceptions.    
 
 
