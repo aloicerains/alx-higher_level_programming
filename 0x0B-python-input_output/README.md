@@ -83,11 +83,20 @@ Write a class Student that defines a student by:
 * Public method def to_json(self): that retrieves a dictionary representation of a Student instance (same as `8-class_to_json.py`)   
 * You are not allowed to import any module    
 
-- [ ] **10-student.py**   
+- [x] **10-student.py**   
 Implementtion of Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py):    
 * If attrs is a list of strings, only attribute names contained in this list must be retrieved.    
 * Otherwise, all attributes must be retrieved    
 * You are not allowed to import any module   
 
-- [ ] **11-student.py**   
+- [x] **11-student.py**     
+* Public method `def reload_from_json(self, json):`  that replaces all attributes of the Student instance:    
+* You can assume json will always be a dictionary     
+* A dictionary key will be the public attribute name     
+* A dictionary value will be the value of the public attribute        
 
+- [ ] **12-pascal_triangle.py**     
+Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of n:     
+* Returns an empty list if `n <= 0`    
+* You can assume n will be always an integer    
+* You are not allowed to import any module    
