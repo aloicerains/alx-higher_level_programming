@@ -47,10 +47,11 @@ class Base:
             dictionary = []
             filename = cls.__name__ + '.json'
             for i in list_objs:
-                dictionary.append(i.to_dictionary())
-            json_string = cls.to_json_string(dictionary)
+                i = i.to_dictionary()
+                json_d = json.loads(cls.to_json_string(i))
+                dictionary.append(json_d)
             with open(filename, "w") as f:
-                f.write(json_string)
+                json.dump(dictionary, f)
 
     def from_json_string(json_string):
         """Function returns a list from the JSON string"""
