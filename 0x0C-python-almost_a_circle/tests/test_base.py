@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Test cases for the base.py"""
 
 import unittest
@@ -70,3 +71,4 @@ class TestBaseClass(unittest.TestCase):
         """test from json none"""
         json_list = Base.from_json_string([])
         self.assertEqual(json_list, [])
+

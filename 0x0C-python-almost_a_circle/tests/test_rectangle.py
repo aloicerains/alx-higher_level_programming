@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
     unit test for models/rectangle.py
 """
@@ -407,3 +408,4 @@ class TestRectangle(unittest.TestCase):
         with open("Rectangle.json", "r") as f:
             content = f.read()
             self.assertEqual(str, type(content))
+
