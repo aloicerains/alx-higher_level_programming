@@ -13,3 +13,4 @@ Some of the directories in this repository are brefily outlined.
 * 0x09-python-everything_is_object: Multiple questions based on python objects
 * 0x0A-python-inheritance: Contains tasks on inheritance of classes    
 * 0x0B-python-input_output: Tasks on the file handling
+* 0x0C-python-almost_a_circle: The directory contains most concepts on python including tests cases. 
