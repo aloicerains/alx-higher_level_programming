@@ -84,11 +84,10 @@ class Base:
         try:
             with open(filename, 'r') as f:
                 json_string = f.read()
-                json_list = cls.from_json_string(json_string)
-                if json_list is not None and len(json_list) > 0:
-                    for i in json_list:
-                        dummy = cls.create(**i)
-                        new_list.append(dummy)
-                    return new_list
+            json_list = cls.from_json_string(json_string)
+            for i in json_list:
+                dummy = cls.create(**i)
+                new_list.append(dummy)
+            return new_list
         except:
             return new_list
