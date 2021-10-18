@@ -59,32 +59,20 @@ class Base:
         new_list = []
         if json_string is None or len(json_string) == 0:
             return new_list
-        return list(eval(json_string))
+        return json.loads(json_string)
 
     @classmethod
     def create(cls, **dictionary):
         """Returns an instance with all attributes already set."""
+        from models.rectangle import Rectangle
+        from models.square import Square
+
         if cls.__name__ == "Rectangle":
-            dummy = cls(2, 3)
+            dummy = Rectangle(2, 3)
         elif cls.__name__ == "Square":
-            dummy = cls(4)
-        kwargs = {}
-        if dictionary is not None and len(dictionary) > 0:
-            for k in dictionary:
-                if k == 'id':
-                    kwargs[k] = dictionary[k]
-                if k == 'width':
-                    kwargs[k] = dictionary[k]
-                if k == 'height':
-                    kwargs[k] = dictionary[k]
-                if k == 'x':
-                    kwargs[k] = dictionary[k]
-                if k == 'y':
-                    kwargs[k] = dictionary[k]
-                if k == 'size':
-                    kwargs[k] = dictionary[k]
-            dummy.update(**kwargs)
-            return dummy
+            dummy = Square(4)
+        dummy.update(**dictionary)
+        return dummy
 
     @classmethod
     def load_from_file(cls):
