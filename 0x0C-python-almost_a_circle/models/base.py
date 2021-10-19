@@ -44,15 +44,15 @@ class Base:
             list_objs(base obj): A list of instances inheriting Base.
 
         """
+        dictionary = []
+        filename = cls.__name__ + '.json'
         if list_objs is not None and len(list_objs) > 0:
-            dictionary = []
-            filename = cls.__name__ + '.json'
             for i in list_objs:
                 i = i.to_dictionary()
                 json_d = json.loads(cls.to_json_string(i))
                 dictionary.append(json_d)
-            with open(filename, "w") as f:
-                json.dump(dictionary, f)
+        with open(filename, "w") as f:
+            json.dump(dictionary, f)
 
     def from_json_string(json_string):
         """Function returns a list from the JSON string"""
