@@ -8,7 +8,7 @@ import json
 
 
 class TestBaseClass(unittest.TestCase):
-    """The class offers test cases for base class."""
+    """The class tests cases for base class."""
 
     def test_no_id(self):
         """No id is provided for base class"""

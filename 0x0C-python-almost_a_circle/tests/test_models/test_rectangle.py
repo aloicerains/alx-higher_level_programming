@@ -383,9 +383,7 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual([], [])
 
     def test_save_to_file_rect(self):
-        """
-            Testing save to file with proper input
-        """
+        """proper input to save the file"""
         Rectangle.save_to_file([Rectangle(1, 2, 3, 4, 5)])
         with open("Rectangle.json", "r") as f:
             content = f.read()
