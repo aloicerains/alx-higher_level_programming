@@ -92,3 +92,40 @@ class Base:
             return new_list
         except:
             return new_list
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """Serializes to CSV file"""
+        import csv
+        filename = cls.__name__ + '.csv'
+        with open(filename, 'w', newline='') as csvfile:
+            csv_obj = csv.writer(csvfile)
+            if list_objs is not None:
+                for i in list_objs:
+                    if filename == "Rectangle.csv":
+                        csv_obj.writerow([i.id, i.width, i.height, i.x, i.y])
+                    elif filename == "Square.csv":
+                        csv_obj.writerow([i.id, i.size, i.x, i.y])
+            else:
+                csv_obj.writerow('[]')
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """Deserializes from CSV file"""
+        import csv
+
+        filename = cls.__name__+'.csv'
+        with open(filename, 'r') as csvfile:
+            if filename == "Rectangle.csv":
+                read_obj = csv.DictReader(csvfile, fieldnames={'id', 'width',
+                                                               'height', 'x',
+                                                               'y'})
+            if filename == "Square.csv":
+                read_obj = csv.DictReader(csvfile, fieldnames={'id', 'size',
+                                                               'x', 'y'})
+            instance_list = []
+            for obj in read_obj:
+                obj = {x: int(y) for x, y in obj.items()}
+                instance = cls.create(**obj)
+                instance_list.append(instance)
+        return instance_list
