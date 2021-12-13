@@ -15,5 +15,9 @@ This is the introduction to JavaScript programming. The language is quite useful
 The following tasks are included in the project:     
 * [x] Task 0: Script that prints statement.   
 * [x] Task 1: Script that prints 3 lines   
-* [ ] Task 2: Script prints message depending on the number of arguments passed   
+* [x] Task 2: Script prints message depending on the number of arguments passed   
+* [x] Task 3: Script that prints the first argument passed to it    
+* [x] Task 4: Script that prints two arguments passed to it using `is` in between the arguments   
+* [ ] Task 5: Script that prints `My number: <First argument converted in integer>` if the first argument can be converted to an integer   
+* [ ] Task 6: 
 
