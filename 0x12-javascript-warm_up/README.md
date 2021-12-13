@@ -13,5 +13,7 @@ This is the introduction to JavaScript programming. The language is quite useful
 ### Tasks
 =========    
 The following tasks are included in the project:     
-* [ ] Task 0: Script that prints statement.   
-* [ ] Task 1: Script 
+* [x] Task 0: Script that prints statement.   
+* [x] Task 1: Script that prints 3 lines   
+* [ ] Task 2: Script prints message depending on the number of arguments passed   
+
