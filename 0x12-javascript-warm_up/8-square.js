@@ -11,7 +11,7 @@ if (process.argv.length < 3) {
     let kount = 0;
     let displ = '';
     while (kount < argument) {
-      displ = displ.concat('x');
+      displ = displ.concat('X');
       kount++;
     }
     console.log(displ);
