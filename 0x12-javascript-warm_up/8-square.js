@@ -3,7 +3,7 @@ if (process.argv.length < 3) {
   console.log('Missing size');
 } else if (process.argv.length >= 3) {
   const argument = parseInt(process.argv[2]);
-  if (!argument) {
+  if (Number.isNaN(argument)) {
     console.log('Missing size');
   }
   let count = 0;
