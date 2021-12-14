@@ -11,7 +11,9 @@ The following are some of the key concepts oulined in the project:
 #### Tasks    
 ==========    
 The following task lists are included in the project:    
-* [ ] Task 0: Empty class that defines a rectangle    
-* [ ] Task 1: Class rectangle initialized with width and height   
-* [ ] Task 2: Class Rectangle with constructor   
-* [ ] Task 3: 
+* [x] Task 0: Empty class that defines a rectangle    
+* [x] Task 1: Class rectangle initialized with width and height   
+* [x] Task 2: Class Rectangle with constructor   
+* [x ] Task 3: Add instance method `print()` to Rectangle class   
+* [x] Task 4: Add methods `rotate()` and `double()` to the Rectangle class  
+* [x] Task 5: Creates a `Square` subclass of `Rectangle`    
