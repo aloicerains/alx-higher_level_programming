@@ -11,12 +11,11 @@ if __name__ == "__main__":
     db = MySQLdb.connect(user=user_name, passwd=pass_word, db=database,
                          host="localhost", port=3306)
     c = db.cursor()
-    c.execute("""SELECT * FROM states WHERE BINARY states.name='{}'
-            ORDER BY states.id ASC""".format(state))
+    c.execute("""SELECT * FROM states WHERE BINARY name = %(state)s
+            ORDER BY states.id ASC""", {'state': state});
     rows = c.fetchall()
     for r in rows:
-        if r[1] == state:
-            print(r)
+         print(r)
 
     c.close()
     db.close()
