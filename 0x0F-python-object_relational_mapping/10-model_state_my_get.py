@@ -15,8 +15,8 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     state = sys.argv[4]
     session = Session()
-    instance = session.query(State).
-    order_by(State.id).filter(State.name == "{}".format(state)).first()
+    instance = session.query(State).\
+    order_by(State.id).filter(State.name == state).first()
     if instance is not None:
         print("{}".format(instance.id))
     else:
