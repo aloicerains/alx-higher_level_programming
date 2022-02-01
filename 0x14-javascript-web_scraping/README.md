@@ -7,4 +7,7 @@ The followig resources are useful in the project:
 
 #### Tasks    
 ==========     
-* Task 0: Script that reads and prints the content of a file 
+* Task 0: Script that reads and prints the content of a file given as argument   
+* Task 1: Script writes string to file; string and file given as arguments   
+* Task 3: Script displays the status code of a `GET` request   
+
