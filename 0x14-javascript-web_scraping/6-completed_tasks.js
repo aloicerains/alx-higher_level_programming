@@ -7,20 +7,28 @@ request(url, function (error, response, body) {
     return;
   }
   const tasks = JSON.parse(body);
-  const dict = {};
-  let userId = 1;
-  let noCompleted = 0;
-  while (userId <= 10) {
-    for (const task of tasks) {
-      if (userId === task.userId) {
-        if (task.completed === true) {
-          noCompleted += 1;
+  const dict = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+    7: 0,
+    8: 0,
+    9: 0,
+    10: 0
+  };
+  for (const task of tasks) {
+    if (task.completed === true) {
+          dict[task['userId']]++;
         }
       }
+      for (const key in dict) {
+        const vari = dict[key];
+	if (vari === 0) {
+	  delete dict[key];
     }
-    dict[userId] = noCompleted;
-    userId += 1;
-    noCompleted = 0;
   }
   console.log(dict);
 });
