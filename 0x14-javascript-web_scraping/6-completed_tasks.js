@@ -21,13 +21,13 @@ request(url, function (error, response, body) {
   };
   for (const task of tasks) {
     if (task.completed === true) {
-          dict[task['userId']]++;
-        }
-      }
-      for (const key in dict) {
-        const vari = dict[key];
-	if (vari === 0) {
-	  delete dict[key];
+      dict[task.userId]++;
+    }
+  }
+  for (const key in dict) {
+    const vari = dict[key];
+    if (vari === 0) {
+      delete dict[key];
     }
   }
   console.log(dict);
