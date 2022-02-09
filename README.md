@@ -1,4 +1,6 @@
 ### alx-higher_level_programming
+================================    
+
 The repository contains project files beginning the introduction to higher level programming in Python language.  
 Some of the directories in this repository are brefily outlined.
 * 0x00-python-hello_world: contains files on introduction to higher level programming
@@ -13,4 +15,12 @@ Some of the directories in this repository are brefily outlined.
 * 0x09-python-everything_is_object: Multiple questions based on python objects
 * 0x0A-python-inheritance: Contains tasks on inheritance of classes    
 * 0x0B-python-input_output: Tasks on the file handling
-* 0x0C-python-almost_a_circle: The directory contains most concepts on python including tests cases. 
+* 0x0C-python-almost_a_circle: The directory contains most concepts on python including tests cases.   
+* 0x12-javascript-warm_up: Introduction to JavaScript   
+* 0x13-javascript_objects_scopes_closures: Projects on JavaScript concepts  
+* 0x0F-python-object_relational_mapping: Linking databases and python   
+* 0x10-python-network_0
+* 0x11-python-network_1
+* 0x14-javascript-web_scraping  
+* 0x15-javascript-web_jquery     
+ 
